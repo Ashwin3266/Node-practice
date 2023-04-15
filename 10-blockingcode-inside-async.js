@@ -7,6 +7,7 @@ const server=http.createServer((req,res)=>{
     }
     else if(req.url === '/about')
     {
+        //Only after fetching this the other reloads get the value
         for(let i=0;i<50;i++)
         {
             for(let j=0;j<1000;j++)
