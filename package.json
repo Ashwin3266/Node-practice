@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "main": "1-function.js",
   "scripts": {
-    "start":"node app.js",
-    "dev":"nodemon app.js"
+    "start": "nodemon app.js"
   },
   "author": "",
   "license": "ISC",
@@ -12,5 +11,8 @@
   "description": "",
   "devDependencies": {
     "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "tar": "^6.1.13"
   }
 }
